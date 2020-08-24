@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.triangle-sauce</groupId>
-	<artifactId>shopify-csv-spring-boot-starter</artifactId>
+	<artifactId>shopify-csv-spring-boot-auto-configuration</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<name>shopify-csv-spring-boot-starter</name>
 	<description>Spring Boot starter for Shopify CSV</description>
@@ -55,7 +55,7 @@
 		<repository>
 			<id>github</id>
 			<name>Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/TRIANGLE-SAUCE/shopify-csv-spring-boot-starter</url>
+			<url>https://maven.pkg.github.com/TRIANGLE-SAUCE/shopify-csv-spring-boot-auto-configuration</url>
 		</repository>
 	</distributionManagement>
 </project>
