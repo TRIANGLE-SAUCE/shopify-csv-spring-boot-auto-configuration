@@ -13,4 +13,12 @@
 		<module>shopify-csv-spring-boot-autoconfigure</module>
 		<module>shopify-csv-spring-boot-starter</module>
 	</modules>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/TRIANGLE-SAUCE/shopify-csv-spring-boot-auto-configuration</url>
+		</repository>
+	</distributionManagement>
 </project>
