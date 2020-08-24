@@ -6,7 +6,7 @@
 
 	<groupId>com.triangle-sauce</groupId>
 	<artifactId>shopify-csv-spring-boot-starter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>shopify-csv-spring-boot-starter</name>
 	<description>Spring Boot starter for Shopify CSV</description>
 
