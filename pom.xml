@@ -8,8 +8,6 @@
 	<artifactId>shopify-csv-spring-boot-auto-configuration</artifactId>
 	<packaging>pom</packaging>
 	<version>0.0.3-SNAPSHOT</version>
-	<name>shopify-csv-spring-boot-starter</name>
-	<description>Spring Boot starter for Shopify CSV</description>
 
 	<modules>
 		<module>shopify-csv-spring-boot-autoconfigure</module>
