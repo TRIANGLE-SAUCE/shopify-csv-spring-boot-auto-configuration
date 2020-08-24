@@ -19,7 +19,7 @@
 		<dependency>
 			<groupId>com.triangle-sauce</groupId>
 			<artifactId>shopify-csv-spring-boot-autoconfigure</artifactId>
-			<version>${project.version}</version>
+			<version>0.0.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.triangle-sauce</groupId>
