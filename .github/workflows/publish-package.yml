@@ -17,4 +17,6 @@ jobs:
         env:
           USERNAME: ${{ github.actor }}
           PASSWORD: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -B deploy --settings settings.xml
+        run: |
+          mvn -B deploy --file shopify-csv-spring-boot-autoconfigure/pom.xml--settings settings.xml
+          mvn -B deploy --file shopify-csv-spring-boot-starter/pom.xml--settings settings.xml
