@@ -7,7 +7,7 @@
 	<groupId>com.triangle-sauce</groupId>
 	<artifactId>shopify-csv-spring-boot-auto-configuration</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.8-SNAPSHOT</version>
 
 	<modules>
 		<module>shopify-csv-spring-boot-autoconfigure</module>
