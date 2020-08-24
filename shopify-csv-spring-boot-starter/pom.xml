@@ -7,7 +7,6 @@
 	<artifactId>shopify-csv-spring-boot-starter</artifactId>
 	<version>0.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>Shopify CSV Spring Boot AutoConfiguration</name>
 
 	<properties>
 		<github.global.server>github</github.global.server>
