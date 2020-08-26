@@ -1,7 +1,6 @@
 package com.trianglesauce.autoconfigure;
 
-import com.trianglesauce.service.CustomerService;
-import com.trianglesauce.service.impl.CustomerServiceImpl;
+import com.trianglesauce.factory.CustomerCsvFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,9 +8,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration(proxyBeanMethods = false)
 public class ShopifyCsvAutoConfiguration {
 
-	@ConditionalOnMissingBean(CustomerService.class)
+	@ConditionalOnMissingBean(CustomerCsvFactory.class)
 	@Bean
-	public CustomerService customerService() {
-		return new CustomerServiceImpl();
+	public CustomerCsvFactory customerService() {
+		return new CustomerCsvFactory();
 	}
 }
